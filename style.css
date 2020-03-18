@@ -120,6 +120,7 @@
   .showcase p {
     margin-bottom: 10px;
     font-size: 20px;
+    width: 95%;
   }
   
   .showcase .btn {
