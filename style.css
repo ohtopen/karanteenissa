@@ -166,35 +166,37 @@
     background: url('./img/food.png') no-repeat center center/cover;
     margin-bottom: 20px;
   }
+
+    /* Other services */
+    .services {
+      width: 100%;
+      height: 350px;
+      background: url('./img/services.png') no-repeat center center/cover;
+      margin-bottom: 20px;
+      margin-top: 10em;
+    }
   
-  
-  .food .content {
+   /* Homes */
+   .homes {
+    width: 100%;
+    height: 350px;
+    background: url('./img/home.png') no-repeat center center/cover;
+    margin-bottom: 20px;
+    margin-top: 10em;
+  }
+
+  .food .content, .services .content, .homes .content {
     width: 40%;
     padding: 50px 0 0 30px;
   }
   
-  .food p, .services p {
+  .food p, .services p, .homes p {
     margin: 10px 0 20px;
     font-size: 18px;
   }
 
-  .food h2, .services h2 {
+  .food h2, .services h2, .homes h2 {
     font-size: 35px;
-  }
-
-  /* Other services */
-  .services {
-    width: 100%;
-    height: 350px;
-    background: url('./img/services.png') no-repeat center center/cover;
-    margin-bottom: 20px;
-    margin-top: 10em;
-  }
-  
-  
-  .services .content {
-    width: 40%;
-    padding: 50px 0 0 30px;
   }
   
   .carbon p {
@@ -214,41 +216,6 @@
     width: 65%;
     padding: 100px 0 0 30px;
     font-size: 18px;
-  }
-  
-  /* Follow */
-  .follow {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 30px 0 30px;
-  }
-  
-  .follow * {
-    margin-right: 10px;
-  }
-  
-  /* Links */
-  .links {
-    background: #f2f2f2;
-    color: #616161;
-    font-size: 12px;
-    padding: 35px 0;
-  }
-  
-  .links-inner {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  .links li {
-    line-height: 2.8;
   }
   
   /* Footer */
@@ -298,22 +265,12 @@
       padding: 20px 0 0 20px;
     }
 
-    .food {
+    .food, .services, .homes {
       background: #f2f2f2;
       height: 15em;
     }
 
-    .food .content {
-      width: 80%;
-      padding: 50px 0 0 30px;
-    }
-
-    .services {
-      background: #f2f2f2;
-      height: 15em;
-    }
-
-    .services .content {
+    .food .content, .services .content, .homes .content {
       width: 80%;
       padding: 50px 0 0 30px;
     }
