@@ -185,17 +185,26 @@
     margin-top: 10em;
   }
 
-  .food .content, .services .content, .homes .content {
+     /* Homes */
+     .shops {
+      width: 100%;
+      height: 350px;
+      background: url('./img/shops.png') no-repeat center center/cover;
+      margin-bottom: 20px;
+      margin-top: 10em;
+    }
+
+  .food .content, .services .content, .homes .content, .shops .content {
     width: 40%;
     padding: 50px 0 0 30px;
   }
   
-  .food p, .services p, .homes p {
+  .food p, .services p, .homes p, .shops p {
     margin: 10px 0 20px;
     font-size: 18px;
   }
 
-  .food h2, .services h2, .homes h2 {
+  .food h2, .services h2, .homes h2, .shops h2 {
     font-size: 35px;
   }
   
@@ -265,12 +274,12 @@
       padding: 20px 0 0 20px;
     }
 
-    .food, .services, .homes {
+    .food, .services, .homes, .shops {
       background: #f2f2f2;
       height: 15em;
     }
 
-    .food .content, .services .content, .homes .content {
+    .food .content, .services .content, .homes .content, .shops .content {
       width: 80%;
       padding: 50px 0 0 30px;
     }
