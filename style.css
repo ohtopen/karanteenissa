@@ -172,8 +172,13 @@
     padding: 50px 0 0 30px;
   }
   
-  .food p, .carbon p {
+  .food p, .services p {
     margin: 10px 0 20px;
+    font-size: 18px;
+  }
+
+  .food h2, .services h2 {
+    font-size: 35px;
   }
 
   /* Other services */
@@ -191,7 +196,7 @@
     padding: 50px 0 0 30px;
   }
   
-  .services p, .carbon p {
+  .carbon p {
     margin: 10px 0 20px;
   }
   
@@ -205,8 +210,9 @@
   }
   
   .carbon .content {
-    width: 55%;
+    width: 65%;
     padding: 100px 0 0 30px;
+    font-size: 18px;
   }
   
   /* Follow */
@@ -284,6 +290,31 @@
   @media(max-width: 700px) {
     .menu-btn {
       display: block;
+    }
+
+    .carbon .content {
+      width: 90%;
+      padding: 20px 0 0 20px;
+    }
+
+    .food {
+      background: #f2f2f2;
+      height: 15em;
+    }
+
+    .food .content {
+      width: 80%;
+      padding: 50px 0 0 30px;
+    }
+
+    .services {
+      background: #f2f2f2;
+      height: 15em;
+    }
+
+    .services .content {
+      width: 80%;
+      padding: 50px 0 0 30px;
     }
   
     .menu-btn:hover {
