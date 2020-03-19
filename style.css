@@ -300,6 +300,10 @@ ul {
   margin-bottom: 20px;
 }
 
+.social-icon {
+  justify-content: center;
+}
+
 @media(max-width: 700px) {
   .showcase {
     padding-bottom: 20px;
