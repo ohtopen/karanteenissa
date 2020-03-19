@@ -314,7 +314,6 @@ ul {
     padding: 20px 0 0 20px;
   }
 
-  .food,
   .services,
   .homes,
   .shops,
@@ -324,7 +323,16 @@ ul {
     height: 15em;
   }
 
-  .food .content,
+  .food {
+    background: #f2f2f2;
+    height: 20em;
+  }
+
+  .food .content {
+    width: 80%;
+    padding: 10px 0 0 30px;
+  }
+
   .services .content,
   .homes .content,
   .shops .content,
