@@ -128,7 +128,8 @@ ul {
   color: white;
 }
 
-.showcase h2, .kuusamo h2 {
+.showcase h2, 
+.kuusamo h2 {
   margin-bottom: 10px;
   font-size: 26px;
 }
